@@ -6,3 +6,12 @@ ISBN-10: 0990582930
 ISBN-13: 978-0990582939
 
 https://craftinginterpreters.com
+
+klox is written in Kotlin. This repo contains a Kotlin Multiplatform project with modules that can build:
+
+* klox, the command line program
+* klox server, a backend server that serves the klox playground
+* klox js playground, a React page that runs klox in javascript and outputs the AST
+
+Use IntelliJ to open and run projects from each chapter.
+
