@@ -1,0 +1,2 @@
+let config = { chart: { container:'#chart' }, nodeStructure: { text: { name: '*' }, children: [ { text: { name: '-' }, children: [ { text: { name: '123' }, children: [  ] } ] }, { text: { name: 'group' }, children: [ { text: { name: '45.67' }, children: [  ] } ] },  ] } };
+let chart = new Treant(config);
